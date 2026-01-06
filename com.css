@@ -1,0 +1,188 @@
+/* div {
+    background-color: hsl(192, 100%, 85%);
+    width: 1200px; 
+    opacity: 0.4;
+}
+
+div:hover {
+  opacity: 1;
+}
+
+ body{
+    background-image: url(mars.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    min-height: 100vh;
+    color: white;
+}
+
+ul.a {
+    list-style-position: outside;
+    list-style: circle;
+}
+
+ul.a {
+  list-style-position: outside;
+}
+
+ul.b {
+  list-style-position: inside;
+}
+
+.ab {
+    display: none;
+}
+
+.bc {
+    visibility: hidden;
+} */
+
+
+div.child_combinator>p {
+  background-color: yellow;
+}
+
+div.sibling_combinator+p {
+  background-color: yellow;
+}
+
+div.sibling_combinator1+p {
+  background-color: yellow;
+}
+
+p~ul {
+  background-color: gold;
+  border: 1px solid gray;
+}
+
+p:first-child {
+  color: blue;
+}
+
+p.ele::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
+}
+
+
+.img {
+  width: 300px;
+  margin: 0 auto;
+  border: solid red;
+  height: 300px;
+}
+
+.img1 {
+  width: inherit;
+  height: inherit;
+}
+
+img {
+  float: right;
+  margin-left: 15px;
+  width: 200px;
+  height: 200px;
+}
+
+div {
+  margin-top: 20px;
+}
+
+div.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+div.gallery-item {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 180px;
+}
+
+h2 {
+  font-size: clamp(2rem, 2.5vw, 3.5rem);
+}
+
+p {
+  font-size: clamp(1rem, 2.5vw, 2.5rem);
+}
+
+div.gallery-item:hover {
+  border: 1px solid #777;
+}
+
+div.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+
+div.gallery-item div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+    #home {
+      width: 46px;
+      height: 44px;
+      background-image: url('mars.jpeg');
+      background-position: 0 0;
+
+    }
+
+    #prev {
+      width: 43px;
+      height: 44px;
+      background-image: url('mars.jpeg');
+      background-position: -47px 0;
+ 
+    }
+
+    #next {
+      width: 43px;
+      height: 44px;
+      background-image: url('mars.jpeg');
+      background-position: -91px 0;
+    }
+
+.clear{
+  border: 3px solid green;
+  padding: 10px;
+}
+
+.clearfix {
+    border: 3px solid green;
+  padding: 10px;
+}
+
+.img1 {
+  float: right;
+}
+
+.img2 {
+  float: right;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+body {
+  font-size: 16px; 
+}
+
+h1 {
+  font-size: 2.5em; 
+}
+
+h2 {
+  font-size: 1.875em;
+}
+
+p {
+  font-size: 1em; 
+}

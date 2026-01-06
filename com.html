@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="com.css">
+</head>
+<body>
+    <!-- <div>This is a test div</div>
+    <h1>The list-style-position Property</h1> -->
+
+<!-- <h2>list-style-position: outside (default):</h2>
+<ul class="a">
+  <li>Coffee - A brewed drink prepared from roasted coffee beans, which are the seeds of berries from the Coffea plant</li>
+  <li>Tea - An aromatic beverage commonly prepared by pouring hot or boiling water over cured leaves of the Camellia sinensis, an evergreen shrub (bush) native to Asia</li>
+  <li>Coca Cola - A carbonated soft drink produced by The Coca-Cola Company. The drink's name refers to two of its original ingredients, which were kola nuts (a source of caffeine) and coca leaves</li>
+</ul>
+
+<h2>list-style-position: inside:</h2>
+<ul class="b"> -->
+  <!-- <li>Coffee - A brewed drink prepared from roasted coffee beans, which are the seeds of berries from the Coffea plant</li>
+  <li>Tea - An aromatic beverage commonly prepared by pouring hot or boiling water over cured leaves of the Camellia sinensis, an evergreen shrub (bush) native to Asia</li>
+  <li>Coca Cola - A carbonated soft drink produced by The Coca-Cola Company. The drink's name refers to two of its original ingredients, which were kola nuts (a source of caffeine) and coca leaves</li>
+</ul>
+
+<div class="ab">
+<li>Coffee - A brewed drink prepared from roasted coffee beans, which are the seeds of berries from the Coffea plant</li>
+  <li>Tea - An aromatic beverage commonly prepared by pouring hot or boiling water over cured leaves of the Camellia sinensis, an evergreen shrub (bush) native to Asia</li>
+  <li>Coca Cola - A carbonated soft drink produced by The Coca-Cola Company. The drink's name refers to two of its original ingredients, which were kola nuts (a source of caffeine) and coca leaves</li>
+
+</div>
+
+<div class="bc">
+<li>Coffee - A brewed drink prepared from roasted coffee beans, which are the seeds of berries from the Coffea plant</li>
+  <li>Tea - An aromatic beverage commonly prepared by pouring hot or boiling water over cured leaves of the Camellia sinensis, an evergreen shrub (bush) native to Asia</li>
+  <li>Coca Cola - A carbonated soft drink produced by The Coca-Cola Company. The drink's name refers to two of its original ingredients, which were kola nuts (a source of caffeine) and coca leaves</li>
+
+</div>
+
+<h2>list-style-position: inside:</h2>
+<ul class="b">
+  <li>Coffee - A brewed drink prepared from roasted coffee beans, which are the seeds of berries from the Coffea plant</li>
+  <li>Tea - An aromatic beverage commonly prepared by pouring hot or boiling water over cured leaves of the Camellia sinensis, an evergreen shrub (bush) native to Asia</li>
+  <li>Coca Cola - A carbonated soft drink produced by The Coca-Cola Company. The drink's name refers to two of its original ingredients, which were kola nuts (a source of caffeine) and coca leaves</li>
+</ul> -->
+
+
+<div>A div element.</div>
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+<p>The first paragraph.</p>
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+<h2>Another list</h2>
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+<p>The > combinator selects all elements that are direct children of a specified element.</p>
+<p>The following example selects all p elements that are direct children of div:</p>
+
+<div class="child_combinator">
+  <p>Paragraph 1 in the div.</p>
+  <p>Paragraph 2 in the div.</p>
+  <section>
+
+    <p>Paragraph 3 in the div (inside a section element).</p>
+  </section>
+  <p>Paragraph 4 in the div.</p>
+</div>
+
+<p>Paragraph 5. Not in a div.</p>
+<p>Paragraph 6. Not in a div.</p>
+
+<h2>Next Sibling Combinator (+)</h2>
+
+<p>The + combinator is used to select an element that is directly after a specific element.</p>
+<p>The following example selects the first p element that immediately follows a div, and share the same parent:</p>
+
+<div class="sibling_combinator">
+  <p>Paragraph 1 in the div.</p>
+  <p>Paragraph 2 in the div.</p>
+</div>
+
+<p>Paragraph 3. After a div.</p>
+<p>Paragraph 4. After a div.</p>
+
+<div class="sibling_combinator1">
+  <p>Paragraph 5 in the div.</p>
+  <p>Paragraph 6 in the div.</p>
+</div>
+
+<p>Paragraph 7. After a div.</p>
+<p>Paragraph 8. After a div.</p>
+
+
+<h2>Use p:first-child</h2>
+
+<p>Style any p element that is the first child of any element:</p>
+
+<div class="first-child">
+  <p>This is some text.</p>
+  <p>This is some text.</p>
+  <div>
+    <p>This is some text.</p>
+    <p>This is some text.</p>
+  </div>
+</div>
+
+<div>
+  <p>This is some text.</p>
+  <p>This is some text.</p>
+</div>
+
+<p class="ele">The first line of the paragraph is changed</p>
+
+<div class="img">
+  <img src="mars.jpeg" alt="try again" class="img1">
+</div>
+
+<div>
+<img src="mars.jpeg" alt="Pineapple" width="300" height="300">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+</div>
+
+
+<h2>Without Clearfix</h2>
+
+<p>The image is floated to the right. It is also taller than the element containing it, so it overflows outside of its container:</p>
+
+<div class="clear">
+  <img class="img1" src="mars.jpeg" alt="mars" width="170" height="170">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet...
+</div>
+
+<h2 style="clear:right">Using the Clearfix Hack</h2>
+<p>Add the clearfix hack to the containing element, to fix this problem:</p>
+
+<div class="clearfix">
+  <img class="img2" src="mars.jpeg" alt="mars" width="170" height="170">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet...
+</div>
+
+
+
+<h2>Image Gallery</h2>
+
+<div class="gallery">
+
+<div class="gallery-item">
+  <a target="_blank" href="img_5terre.jpg">
+    <img src="mars.jpeg" alt="mars" width="600" height="400">
+  </a>
+  <div class="desc">Mars</div>
+</div>
+
+<div class="gallery-item">
+  <a target="_blank" href="../stockimg.webp">
+    <img src="stockimg.webp" alt="earth" width="600" height="400">
+  </a>
+  <div class="desc">Earth</div>
+</div>
+
+<div class="gallery-item">
+  <a target="_blank" href="mars.jpeg">
+    <img src="mars.jpeg" alt="Mars" width="600" height="400">
+  </a>
+  <div class="desc">Mars</div>
+</div>
+
+<div class="gallery-item">
+  <a target="_blank" href="stockimg.webp">
+    <img src="stockimg.webp" alt="Earth" width="600" height="400">
+  </a>
+  <div class="desc">Earth</div>
+</div>
+
+</div>
+
+</div>
+
+<h2>Image Sprites</h2>
+
+<img id="home" src="imgtrans.gif" width="1" height="1">
+<img id="prev" src="imgtrans.gif" width="1" height="1">
+<img id="next" src="imgtrans.gif" width="1" height="1">
+
+<h1>This is heading 1</h1>
+<h2>This is heading 2</h2>
+<p>This is a paragraph.</p>
+<p>Specifying the font-size in em allows all major browsers to resize the text.</p>
+
+
+</body>
+</html>
